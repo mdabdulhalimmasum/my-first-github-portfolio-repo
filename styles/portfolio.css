@@ -140,6 +140,7 @@ main section{
 .resume-container{
     display: flex;
     gap: 50px;
+    padding: 50px 70px;
 }
 .resume-column-title{
     color: var(--Dark-02, #474747);
@@ -170,3 +171,27 @@ main section{
     text-align: center;
     margin-top: 50px;
 }
+/* footer style */
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-links{
+    margin-left: 30px;
+}
+.contract input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 15px 35px;
+    color: var(--Dark-03, #757575);
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    border: 0;
+    width: 100%;
+}
+
