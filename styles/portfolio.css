@@ -44,10 +44,10 @@ nav a{
 /* header part */
 .header{
     background-color:#FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 728px 550px;
+    background-position: bottom right , top left;
+    background-size: 728px 550px, 136px 774px ;
 }
 .banner{
     padding: 20px 20px 0px 130px;
